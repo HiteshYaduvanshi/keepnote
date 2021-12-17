@@ -9,7 +9,7 @@ const Note=(props)=>{
     <div className="note">
         <h1>{props.tittle}</h1>
         <p>{props.content}</p>
-        <button onClick={deletenote}>
+        <button onClick={deletenote} className="delbtn">
         <DeleteOutlineIcon className="btn"/>
         </button>
     </div>
